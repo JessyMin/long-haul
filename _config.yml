@@ -16,6 +16,9 @@ navigation:
    url: /index.html
  - title: About
    url: /about
+ - title: Categoriy
+   url: /category
+   
 
 social:
    github: jessymin
