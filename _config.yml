@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Jessy Min 
+description: 고객을 이해하기 위한 데이터분석의 길
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://jessymin.github.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -12,17 +12,13 @@ gems: [jekyll-paginate]
 paginate: 5
 
 navigation:
- - title: Home
+ - title: Blog
    url: /index.html
  - title: About
    url: /about
- - title: Contact
-   url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: jessymin
+   facebook: jessymin
 
-google_analytics: "UA-58263416-1"
+google_analytics: "UA-58263416-1***"
