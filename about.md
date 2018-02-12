@@ -1,24 +1,21 @@
 ---
 layout: default
-title: About Long Haul
+title: About Me
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
+	
+	<h2 class="pageTitle">About Jessy Min</h2>
+
+	<p>안녕하세요, Jessy Min입니다. 신제품 컨셉 기획자로 일하고 있으며, 데이터분석가로의 커리어체인지를 준비 중입니다.</p>
+	<p>커리어의 시작을 UX리서처로 했기에 리서처로서의 아이덴티티를 갖고 있습니다. 최근에는 제조사에서 신제품 기획 및 이를 위한 고객조사를 해왔습니다. 저에게 데이터분석은 고객을 더 잘 이해하기 위한 방편으로서 고객조사 결과 데이터 분석의 연장선상에 있습니다.</p>
+	<p>새로운 제품이나 기능이 고객과 처음 만나는 순간을 지켜볼 때 가장 짜릿합니다. 기술이 인간의 삶을 더 나아지게 할 수 있다고 믿습니다. 하지만 그러기 위해 누군가의 눈은 오로지 사람을 바라보고 있어야 합니다. 세심하고 날카로운 눈으로 그 일을 합니다.</P>
+	
+	
+	<h3>Skills</h3>
 	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
+		<li>SQL</li>
+		<li>R</li>
+		<li>SPSS/Excel</li>
   	</ul>
 </div>
