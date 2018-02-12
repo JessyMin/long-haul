@@ -704,7 +704,7 @@ img, video, audio, iframe, object {
 LINK STYLING
 ***************/
 a {
-  color: seagreen; }
+  color: #3b5998; }
   a:hover {
     color: #8b9dc3; }
 
@@ -816,8 +816,8 @@ HEADER STYLING
     padding-left: 2rem;
     font-size: 1em;
     line-height: 3em;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 800;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
     text-transform: uppercase; }
     .header h1 a {
       color: white;
