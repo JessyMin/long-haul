@@ -679,7 +679,7 @@ body {
   font-family: Helvetica, Georgia, Times, serif;
   line-height: 1.75;
   font-size: 112.5%;
-  color: #111;
+  color: #303030;
   overflow-x: hidden;
   margin: 0; }
   body p, body ul {
@@ -800,7 +800,7 @@ PAGE STYLES
 HEADER STYLING
 ***************/
 .header {
-  background-color: #000000;
+  background-color: #4f5b66;
   background-image: url("../img/index_photo2.jpg");
   background-size: cover;
   background-position: center center;
@@ -855,6 +855,8 @@ POST STYLING
     height: 2px;
     width: 150px;
     left: calc(50% - 75px); }
+  .post noList {
+    color : #343d46; }  
 
 .post .meta {
   text-align: center;
