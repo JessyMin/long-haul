@@ -800,13 +800,13 @@ PAGE STYLES
 HEADER STYLING
 ***************/
 .header {
-  background-color: #3b5998;
-  background-image: url("../img/touring.jpg");
+  background-color: #000000;
+  background-image: url("../img/index_photo2.jpg");
   background-size: cover;
   background-position: center center;
   color: white;
   padding: 0;
-  height: 3em; }
+  height: 2.5em; }
   .header .container {
     padding: 0;
     max-width: 100%; }
