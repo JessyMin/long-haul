@@ -492,7 +492,7 @@ CLEAR AFTER FLOATS
 BUTTON DEFAULTS
 ***************/
 .button, .button-secondary, .button-tertiary, .button__outline {
-  background-color: seagreen;
+  background-color: #343d46;
   display: inline-block;
   position: relative;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -526,10 +526,10 @@ BUTTON DEFAULTS
 
 .button__outline {
   background-color: transparent;
-  border: 3px solid seagreen;
-  color: seagreen; }
+  border: 3px solid #343d46;
+  color: #343d46; }
   .button__outline:hover {
-    background-color: seagreen;
+    background-color: #343d46;
     color: #fff; }
 
 /***************
@@ -689,11 +689,11 @@ body {
     margin: 0 0 2rem; }
 
 ::-moz-selection {
-  background: seagreen;
+  background: #343d46;
   color: white; }
 
 ::selection {
-  background: seagreen;
+  background: #343d46;
   color: white; }
 
 img, video, audio, iframe, object {
@@ -973,7 +973,7 @@ FOOTER STYLING
           width: 100%;
           height: 100%; }
           .footer-links ul li a svg .outer-shape {
-            fill: #65737e; }
+            fill: #343d46; }
           .footer-links ul li a svg .inner-shape {
             fill: white; }
       .footer-links ul li:hover a svg .outer-shape {
