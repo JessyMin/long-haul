@@ -422,6 +422,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 1.625em;
+  color: #343d46;
   line-height: 1.15384615; }
 
 @media (min-width: 43.75em) {
