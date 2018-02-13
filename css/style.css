@@ -676,7 +676,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "PT Serif", Georgia, Times, serif;
+  font-family: Helvetica, Georgia, Times, serif;
   line-height: 1.75;
   font-size: 112.5%;
   color: #111;
@@ -801,7 +801,7 @@ HEADER STYLING
 ***************/
 .header {
   background-color: #343d46;
-  background-image: url("../img/index_photo2.jpg");
+  background-image: url("/img/index_photo2.jpg");
   background-size: cover;
   background-position: center center;
   color: white;
