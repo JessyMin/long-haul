@@ -16,9 +16,9 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Categories
+ - title: Category
    url: /category
- - title : Archives
+ - title : Archive
    url: /archive.html
  - title : Project
    url : /project
