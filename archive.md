@@ -5,7 +5,7 @@ title: "Archive"
 
 <div class="post">
 <h2 class="pageTitle">Archive</h2>
-<h3>{{ page.date | date: "%Y" }}</h3>  
+<h3>{{ post.date | date: "%Y" }}</h3>  
 
 <ul class="posts">
   {% for post in site.posts %}
