@@ -4,7 +4,7 @@ title: "Archive"
 ---
 
 <div class="post">
-<h2 class="pagetitle">Archive</h2>
+<h2 class="pageTitle">Archive</h2>
 
 <ul class="posts">
 {% for post in page.posts %}
