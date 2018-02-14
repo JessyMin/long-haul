@@ -3,11 +3,13 @@ layout: default
 title: Archive
 ---
 
-<div class="post">
-	<h2 class="pageTitle">All Posts</h2>
-	<ul>
-		<li><a href="./sql">SQL</a></li>
-		<li><a href="./r">R</a></li>
-    <li>Under Construction...</li>
-	</ul>
-</div>
+<h2>Archive</h2>
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
+{% for yearMonth in postsByYearMonth %}
+  <h3>{{ yearMonth.name }}</h3>
+    <ul>
+      {% for post in yearMonth.items %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}
