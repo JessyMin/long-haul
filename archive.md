@@ -7,9 +7,9 @@ title: "Archive"
 <h2 class="pageTitle">Archive</h2>
 
 <ul class="posts">
-{% for post in page.posts %}
+{% for post in paginator.posts %}
   <li>
-    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </li>
 {% endfor %}
