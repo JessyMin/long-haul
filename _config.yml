@@ -12,14 +12,14 @@ gems: [jekyll-paginate]
 paginate: 5
 
 navigation:
- - title: Home
-   url: /index.html
  - title: About
    url: /about
+ - title: Blog
+   url: /index.html
+ - title : Archive
+   url: /archive
  - title: Category
    url: /category
- - title : Archive
-   url: /archive.html
  - title : Project
    url : /project
 
