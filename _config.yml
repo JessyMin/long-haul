@@ -19,8 +19,9 @@ navigation:
  - title: Categories
    url: /category
  - title : Archives
-   url: /archive
-   
+   url: /archive.html
+ - title : Project
+   url : /project
 
 social:
    github: jessymin
