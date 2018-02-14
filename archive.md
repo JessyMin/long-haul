@@ -7,8 +7,8 @@ title: "Archive"
 <h2 class="pageTitle">Archive</h2>
 <h3>{{ page.date | date: "%Y" }}</h3>  
 
-<ul class="posts noLists">
-  {% for post in page.posts %}
+<ul class="posts">
+  {% for post in site.posts %}
     <li>
       <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
