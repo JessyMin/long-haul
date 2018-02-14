@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archive
+title: "Archive"
 ---
 
 <h2>Archive</h2>
