@@ -3,7 +3,8 @@ layout: default
 title: "Archive"
 ---
 
-<h2>Archive</h2>
+<div class="post">
+<h2 class="pageTitle">Archive</h2>
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
 {% for yearMonth in postsByYearMonth %}
   <h3>{{ yearMonth.name }}</h3>
@@ -16,3 +17,4 @@ title: "Archive"
       {% endfor %}
     </ul>
 {% endfor %}
+</div>
