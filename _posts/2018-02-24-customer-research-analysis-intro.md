@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "고객조사에 쓰이는 실무통계 : Intro"
+title : "고객조사에 쓰이는 실무 통계 : Intro"
 date : 2018-02-24
 ---
 
