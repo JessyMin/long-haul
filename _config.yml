@@ -1,4 +1,4 @@
-title: Jessy Min 
+title: Jessy Min
 description: Data Analyst on the Road
 
 url: http://jessymin.github.io
@@ -8,6 +8,9 @@ permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
 gems: [jekyll-paginate]
 paginate: 5
 
@@ -25,7 +28,7 @@ navigation:
 
 social:
    github: jessymin
-   facebook: 
+   facebook:
 
 google_analytics: "UA-58263416-1***"
 
