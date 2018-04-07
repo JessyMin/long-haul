@@ -9,8 +9,12 @@ permalink: blog/:title/
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
-  hard_wrap: false
+  footnote_backlink: '&#x21a9;&#xfe0e;'
+  math_engine:       mathjax
+  math_engine_opts:
+    preview:         true
+    preview_as_code: true
+
 gems: [jekyll-paginate]
 paginate: 5
 
