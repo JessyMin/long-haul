@@ -676,7 +676,16 @@ th {
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
  * Courtesy of GitHub.com
  */
-
+.highlight {
+  white-space: pre;
+  overflow: auto;
+  word-wrap: normal;
+  /* horizontal scrolling */
+  border-radius: 3px;
+  padding: 20px;
+  background: #d8d8d8;
+  color: #C1C2C3; }
+   
 .highlight .c { color: #999988; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
 .highlight .k { font-weight: bold; }
