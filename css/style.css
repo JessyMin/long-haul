@@ -681,7 +681,7 @@ th {
   overflow: auto;
   word-wrap: normal;
   /* horizontal scrolling */
-  border-radius: 3px;
+  border-radius: 1.5px;
   padding: 20px;
   background: #d8d8d8; }
 
@@ -690,7 +690,7 @@ th {
 .highlight .k { font-weight: bold; }
 .highlight .o { font-weight: bold; }
 .highlight .cm { color: #999988; font-style: italic; }
-.highlight .cp { color: #282828; font-weight: bold; } 
+.highlight .cp { color: #282828; font-weight: bold; }
 .highlight .c1 { color: #999988; font-style: italic; }
 .highlight .cs { color: #999999; font-weight: bold; font-style: italic; }
 .highlight .gd { color: #000000; background-color: #ffdddd; }
