@@ -1,9 +1,10 @@
 ---
 layout : post
 comments : true
-title : [번역] 데이터 분석을 위한 SQL 쿼리 효율
+title : (번역) 데이터 분석을 위한 SQL 쿼리 효율
 date : 2018-04-08
 ---
+
 
 아래 내용은 Mode Analytics 웹사이트의 SQL 튜토리얼 중 쿼리 효율에 관한 챕터를 번역한 것입니다. 
 <https://community.modeanalytics.com/sql/tutorial/sql-performance-tuning/>
