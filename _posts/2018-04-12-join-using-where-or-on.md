@@ -52,7 +52,7 @@ ORDER BY 1;
 
 위 쿼리에서 일어나는 일은 조건문인 `AND…`가 `JOIN`이 일어나기 전에 평가된다는 것이다. 이것은 한 개의 테이블에만 적용되는 `WHERE` 절로 생각해도 좋다. 이 일은 둘 중의 한 테이블에만 일어나는데, 다른 테이블로부터 끌어온 컬럼에는 1000memories라는 permalink가 여전히 보여지기 때문이다.
 
-<img src="https://community.modeanalytics.com/images/intermediate/left-join-on-clause-results.png” />
+<img src="https://community.modeanalytics.com/images/intermediate/left-join-on-clause-results.png” alt="result1" />
 <br>
 <br>
 
@@ -75,7 +75,6 @@ ORDER BY 1;
 
 위 쿼리를 실행시키면 1000memories가 포함된 열이 반환되지 않는 것을 알 수 있다. (원래는 아래 상자의 두 줄 사이에 위치해야 한다) 또한 알아두어야 할 것은, `WHERE` 절로 필터링하면 Null값까지 모두 필터링된다는 점이다. 그래서 위 쿼리는 Null값을 포함시키기 위해 한 줄을 더 추가했다.
 
-<img src="https://community.modeanalytics.com/images/intermediate/left-join-where-clause.png” />
-
+<img src="https://community.modeanalytics.com/images/intermediate/left-join-where-clause.png” alt="result2" />
 
 (이후 이어지는 실습에 관한 내용은 번역을 생략함)
