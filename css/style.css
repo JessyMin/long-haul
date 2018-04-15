@@ -751,9 +751,10 @@ th {
 /*.highlighter-rouge {color: #ce887b; font-weight: 400; border-radius: 1px; padding: 0.1rem 0.3rem;}
 */
 .highlighter-rouge {
+    font-family: courier;
     color: #343d46;
     border: 1px solid #e8e8e8;
-    border-radius: 2px; padding: 0.3rem 0.2rem;
+    border-radius: 2px; padding: 0.15rem 0.25rem;
     background-color: #f5f5f5;
 }
 
