@@ -23,7 +23,7 @@ category : 'SQL'
 필터링은 일반적으로 두 테이블의 조인이 이루어진 뒤에 `WHERE` 절에서 처리된다.
 그러나 조인하기 전에 둘 중 하나나 두 개 모두 필터링하는 것도 가능하다. 예를 들어 두 개의 테이블을 특정한 상황에서만 매치시키고 싶을 수도 있다.
 
-<a href='https://community.modeanalytics.com/sql/tutorial/sql-outer-joins/#the-crunchbase-dataset'>Crunchable data</a>를 이용해서 앞서 배운 `LEFT JOIN` 예제를 다시 한 번 살펴보자. 이번에는 `ORDER BY` 절을 추가할 것이다.
+<a href='https://community.modeanalytics.com/sql/tutorial/sql-outer-joins/#the-crunchbase-dataset'>Crunchbase data</a>를 이용해서 앞서 배운 `LEFT JOIN` 예제를 다시 한 번 살펴보자. 이번에는 `ORDER BY` 절을 추가할 것이다.
 ()역자 주 : Mode Analytics는 튜토리얼 내용을 실습할 수 있는 데이터셋과 SQL 환경을 클라우드로 제공한다.)
 
 ```sql
