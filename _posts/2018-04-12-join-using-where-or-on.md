@@ -9,7 +9,7 @@ category : 'SQL'
 아래 내용은 Mode Analytics 웹사이트의 SQL 튜토리얼 중 WHERE이나 JOIN ON을 이용한 필터링에 관한 내용을 번역한 것이다.
 
 세줄요약 :
-* `Redcarpet.new("ON")`{.ruby}에 사용한 필터링 조건은 `JOIN`이 일어나기 전에 적용된다.
+* `ON`에 사용한 필터링 조건은 `JOIN`이 일어나기 전에 적용된다.
    따라서 한 테이블에만 적용시키는 `WHERE`의 용도로 쓸 수 있다.
 * `WHERE`은 두 테이블이 먼저 `JOIN`된 후에 결과 전체에 적용된다.
 * 다만 `WHERE`을 이용하면 NULL값까지 필터링되므로 주의해야 한다.
