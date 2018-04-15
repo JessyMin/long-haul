@@ -23,7 +23,7 @@ category : 'SQL'
 필터링은 일반적으로 두 테이블의 조인이 이루어진 뒤에 `WHERE` 절에서 처리된다.
 그러나 조인하기 전에 둘 중 하나나 두 개 모두 필터링하는 것도 가능하다. 예를 들어 두 개의 테이블을 특정한 상황에서만 매치시키고 싶을 수도 있다.
 
-<a href=“https://community.modeanalytics.com/sql/tutorial/sql-outer-joins/#the-crunchbase-dataset“>Crunchable data</a>를 이용해서 앞서 배운 `LEFT JOIN` 예제를 다시 한 번 살펴보자. 이번에는 `ORDER BY` 절을 추가할 것이다.
+<a href='https://community.modeanalytics.com/sql/tutorial/sql-outer-joins/#the-crunchbase-dataset'>Crunchable data</a>를 이용해서 앞서 배운 `LEFT JOIN` 예제를 다시 한 번 살펴보자. 이번에는 `ORDER BY` 절을 추가할 것이다.
 ()역자 주 : Mode Analytics는 튜토리얼 내용을 실습할 수 있는 데이터셋과 SQL 환경을 클라우드로 제공한다.)
 
 ```sql
@@ -53,7 +53,7 @@ ORDER BY 1;
 
 위 쿼리에서 일어나는 일은 조건문인 `AND…`가 `JOIN`이 일어나기 전에 평가된다는 것이다. 이것은 한 개의 테이블에만 적용되는 `WHERE` 절로 생각해도 좋다. 이 일은 둘 중의 한 테이블에만 일어나는데, 다른 테이블로부터 끌어온 컬럼에는 1000memories라는 permalink가 여전히 보여지기 때문이다.
 
-<img src="https://community.modeanalytics.com/images/intermediate/left-join-on-clause-results.png” alt="result1" />
+<img src='https://community.modeanalytics.com/images/intermediate/left-join-on-clause-results.png' />
 <br>
 <br>
 
@@ -76,6 +76,6 @@ ORDER BY 1;
 
 위 쿼리를 실행시키면 1000memories가 포함된 열이 반환되지 않는 것을 알 수 있다. (원래는 아래 상자의 두 줄 사이에 위치해야 한다) 또한 알아두어야 할 것은, `WHERE` 절로 필터링하면 Null값까지 모두 필터링된다는 점이다. 그래서 위 쿼리는 Null값을 포함시키기 위해 한 줄을 더 추가했다.
 
-<img src="https://community.modeanalytics.com/images/intermediate/left-join-where-clause.png” alt="result2" />
+<img src='https://community.modeanalytics.com/images/intermediate/left-join-where-clause.png' />
 
 (이후 이어지는 실습에 관한 내용은 번역을 생략함)
