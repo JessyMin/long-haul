@@ -748,8 +748,12 @@ th {
 .highlight .il { color: #009999; }
 .highlight .gc { color: #999; background-color: #EAF2F5; }
 
-.highlighter-rouge {color: #ce887b; font-weight: 400; border-radius: 1px; padding: 0.1rem 0.3rem;}
-
+/*.highlighter-rouge {color: #ce887b; font-weight: 400; border-radius: 1px; padding: 0.1rem 0.3rem;}
+*/
+.highlighter-rouge {
+    color: #337ab7;
+    background-color: #333333;
+}
 
 /***************
 GLOBAL STYLES
