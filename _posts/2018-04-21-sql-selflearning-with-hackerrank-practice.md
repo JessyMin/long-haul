@@ -15,22 +15,22 @@ category : 'SQL'
 
 총 58개의 Practice로 이루어져 있다. 난이도는 Easy/Medium/Hard로 나뉜다.
 
-- __Basic Select__
+- Basic Select  
 Easy(20)
 
-- __Advanced Select__
+- Advanced Select    
 Easy(1) - Medium(4)
 
-- __Aggregation__
+- Aggregation    
 Easy(14) - Medium(3)
 
-- __Basic Join__
+- Basic Join  
 Easy(3) - Medium(5)
 
-- __Advanced Join__
+- Advanced Join  
 Medium(3) - Hard(2)
 
-- __Alternative Queries__
+- Alternative Queries  
 Easy(2) - Medium(1)
 
 <br>
