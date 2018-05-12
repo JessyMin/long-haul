@@ -7,7 +7,7 @@ paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 # Fallback image and color
-image:               /assets/img/nap.jpg
+image:               /assets/img/work_and_life.jpg
 color:               '#4f86aa'
 
 markdown: kramdown
