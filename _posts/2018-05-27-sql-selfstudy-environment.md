@@ -42,7 +42,18 @@ category : 'SQL'
 
 <br>
 
-### 2. 분석툴 서비스 이용 : Mode Analytics
+### 2. HackerRank
+
+Practice에서 문제풀이를 하면서 초급을 벗어날 수 있다.
+
+<a href="https://www.hackerrank.com/domains/sql"> HackerRank : SQL Practice </a>
+
+제공하는 데이터베이스는 MySQL, Oracle, MsSQL Server 등이다.
+MySQL은 아마도 5.x 버전인 듯하며, `WITH`문과 윈도함수를 사용할 수 없다.
+
+<br>
+
+### 3. 분석툴 서비스 이용 : Mode Analytics
 
 구글링하다가 우연히 발견한 데이터 분석 툴이다. 이 회사가 제공하는 서비스인 Mode Studio에 자기 데이터베이스를 연결해서 각종 분석/시각화를 손쉽게 할 수 있게 해준다.
 
@@ -52,7 +63,7 @@ category : 'SQL'
 
 <br>
 
-### 3. 로컬에 MySQL + Workbench 설치
+### 4. 로컬에 MySQL + Workbench 설치
 
 내 경우 처음에는 생활코딩 수업을 들으면서 Anaconda를 이용해 Apach/MySQL/PHP를 한꺼번에 설치했기 때문에, MySQL이 5.x으로 셋팅되었다. 하지만 `WITH`문과 `Window Function`을 써보기 위해 8.x 버전을 추가로 설치했다.
 
@@ -65,7 +76,32 @@ category : 'SQL'
 
 <br>
 
-### 4. Kaggle의 Kernel 이용 : Bigquery
+
+### 5. Rstudio에서 sqldf 패키지 이용
+
+R을 어느 정도 다룰 줄 아는데 SQL은 입문인 상태라면, Rstudio에서 간단히 실습할 수 있다. Workspace에 올려져 있는 데이터프레임들을 테이블로 다룰 수 있다.
+
+```r
+> library(sqldf)
+> sqldf(
+"
+  SELECT *
+  FROM book b
+  JOIN author a
+    ON b.author_id = a.author_id
+  WHERE year >= 2000
+")
+```
+
+
+물론 이건 좀 편법이다. 제대로 하려면 RMySQL 패키지를 이용해 진짜 SQL서버에 연결해야 한다. 하지만 해보니 잘 해결되지 않는 오류때문에 쉽지 않았다.
+
+서버를 연결하지 않고 그냥 sqldf 패키지만 이용하면, 디폴트는 SQLite 문법을 사용하게 되어 있다. 
+
+<br>
+
+
+### 6. Kaggle의 Kernel 이용 : Bigquery
 
 SQL 독학이 슬슬 초급을 벗어나면서 드는 고민은 '대용량 데이터를 다뤄보고 싶다'는 것이었다. 하지만 적당한 데이터셋을 구하기도 쉽지 않거니와, 위에 언급한 Instacart 데이터를 로컬 서버에 올릴 때도 시간이 꽤 걸렸었다.
 
@@ -80,4 +116,4 @@ SQL 독학이 슬슬 초급을 벗어나면서 드는 고민은 '대용량 데�
 
 <br>
 
-4번은 아직 해보지 않았기 때문에, 조만간 경험해보고 다시 글을 올리게 될 듯하다. 
+4번은 아직 해보지 않았기 때문에, 조만간 경험해보고 다시 글을 올리게 될 듯하다.
