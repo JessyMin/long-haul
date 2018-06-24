@@ -24,13 +24,15 @@ Kaggle은 이와 같은 Filtering - Manipulation - Visualization 작업을 매�
 <br>
 
 #### 2. 사용법
-먼저 pandas 라이브러리가 필요하다.
+먼저 `pandas` 라이브러리가 필요하다.
+
 ```Python
 import pandas
 import bq_helper
 ```
 
 아래와 같이 import해도 된다.
+
 ```Python
 import pandas
 from bq_helper import BigQueryHelper
@@ -85,9 +87,10 @@ DESC usa_1910_current;
 특정 테이블의 처음 n개 행을 살펴볼 수 있다.
 이것을 preview라고 표현하는데, 테이블을 scan하지 않기 때문이다.
 
-```Python
+```python
 us_name.head("usa_1910_current")
 ```
+
 ```sql
 SELECT * FROM usa_1910_current
 LIMIT 10;
@@ -171,12 +174,12 @@ df = us_name.query_to_pandas_safe(query,
 #### 참고자료
 
 
-* <a href="https://www.kaggle.com/dansbecker/getting-started-with-sql-and-bigquery"> Kaggle Learning 튜토리얼
+- <a href="https://www.kaggle.com/dansbecker/getting-started-with-sql-and-bigquery"> Kaggle Learning 튜토리얼
 </a>
 
-* <a href="
+- <a href="
 https://github.com/SohierDane/BigQuery_Helper/blob/master/bq_helper.py"> bq_helper 소스코드(Github)
 </a>
 
-* <a href="https://medium.com/google-cloud/learning-to-analyze-huge-bigquery-datasets-using-python-on-kaggle-2c6c6153f542"> Learning to analyze huge BigQuery datasets using Python on Kaggle
+- <a href="https://medium.com/google-cloud/learning-to-analyze-huge-bigquery-datasets-using-python-on-kaggle-2c6c6153f542"> Learning to analyze huge BigQuery datasets using Python on Kaggle
 </a> : Kaggle 데이터 사이언티스트인 Megan Risdal이 만든 튜토리얼. 시각화 과정까지 함께 보여준다.
