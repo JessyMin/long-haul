@@ -2,7 +2,7 @@
 layout : post
 comments : true
 title : "Kaggle Kernel로 BigQuery 사용하는 법"
-date : 2018-06-23
+date : 2018-06-24
 category : 'SQL'
 ---
 
