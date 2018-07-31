@@ -111,9 +111,9 @@ Reactive 객체는 따로 다뤄야 할 만큼 중요한 내용이지만, 가장
 
 내가 하려는 작업은 __'input한 조건에 맞는 rows만 필터링해 테이블로 반환하기'__ 였다. 구글링을 해보면 Column 필터링에 대한 내용은 많은 반면, rows 필터링한 케이스가 많지 않았다. 그러나 핵심은 아래와 같다.
 
-* 1. 수행하려는 작업을 reactive 함수 안에 넣어서 객체에 할당
+* 수행하려는 작업을 reactive 함수 안에 넣어서 객체에 할당
   * selectedData <- reactive ({ })
-* 2. reactive 객체를 사용할 때는 ( )를 붙일 것
+* reactive 객체를 사용할 때는 ( )를 붙일 것
   * selectedData( )
 
 <br>
