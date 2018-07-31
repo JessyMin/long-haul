@@ -682,9 +682,14 @@ th {
   word-wrap: normal;
   /* horizontal scrolling */
   border-radius: 1.5px;
+<<<<<<< HEAD
   padding: 5px;
   background: #d8d8d8;
 }
+=======
+  padding: 20px;
+  background: #d8d8d8; }
+>>>>>>> parent of 0c09ddf... edit syntax highlighter
 
 .highlight .c { color: #999988; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
@@ -751,7 +756,12 @@ th {
 
 /*.highlighter-rouge {color: #ce887b; font-weight: 400; border-radius: 1px; padding: 0.1rem 0.3rem;}
 */
+<<<<<<< HEAD
    font-family: courier;
+=======
+.highlighter-rouge {
+    font-family: courier;
+>>>>>>> parent of 0c09ddf... edit syntax highlighter
     color: #343d46;
     border: 1px solid #e8e8e8;
     border-radius: 2px; padding: 0.15rem 0.25rem;
